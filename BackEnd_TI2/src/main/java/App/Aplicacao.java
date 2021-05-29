@@ -18,6 +18,8 @@ public class Aplicacao {
 	
     public static void main(String[] args) {
         port(6789);
+	    
+        staticFiles.location("/public");
         
         post("/cadastroUsuario", (request, response) -> cadService.add(request, response ,true));
         post("/cadastroEmpresa", (request, response) -> cadService.add(request, response ,false));
