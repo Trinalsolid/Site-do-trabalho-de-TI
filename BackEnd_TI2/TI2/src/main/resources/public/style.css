@@ -1,0 +1,96 @@
+.header{
+    margin-bottom: 20px; 
+    text-align: center;
+}
+
+.header_area{
+    padding: 20px;
+}
+
+.main .card{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main .LANÇAMENTOS{
+    text-align: center;
+    margin-top: 10px;
+    height: 50px;
+}
+
+.main .cards{
+    margin-right: 10px;
+    color: black;
+}
+
+.main .card1{
+    margin-right: 10px;
+    color: black;
+}
+
+.main .barra{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main .barrarinha{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.menu_area{
+    margin-top: 50px;
+}
+
+
+.Imagemquesome {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+.menu_area nav a:hover{
+    background-color: #007bff;
+}
+
+.footer{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
+
+.footer_area{
+    padding: 20px;
+    text-align: center;
+}
+
+.logo{
+    width: 150px;
+}
+
